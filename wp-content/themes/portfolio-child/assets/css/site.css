@@ -545,7 +545,7 @@ body {
 .scroll-card.card-in-about {
   width: clamp(390px, 32vw, 510px) !important;
   height: clamp(245px, 20vw, 318px) !important;
-  margin-left: clamp(15px, 3.2vw, 65px) !important;
+  margin-left: clamp(-220px, -14vw, -160px) !important;
   border-radius: 22px !important;
 }
 

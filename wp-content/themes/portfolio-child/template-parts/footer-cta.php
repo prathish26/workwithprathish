@@ -43,7 +43,8 @@ if (!defined('ABSPATH')) exit;
     <!-- Col 4: Social Links -->
     <div class="footer-col">
       <h4>Social Media</h4>
-      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/prathish26/" target="_blank" rel="me noopener noreferrer">LinkedIn</a>
+      <a href="https://github.com/prathish26" target="_blank" rel="me noopener noreferrer">GitHub</a>
       <a href="https://dribbble.com" target="_blank" rel="noopener noreferrer">Dribbble</a>
       <a href="https://behance.net" target="_blank" rel="noopener noreferrer">Behance</a>
       <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>

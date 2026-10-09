@@ -32,13 +32,11 @@ $theme_uri = get_stylesheet_directory_uri();
               <div class="slideshow-track">
                 <div class="slide-item active"><img src="<?php echo esc_url($theme_uri . '/assets/images/about-slideshow/slide-1.png'); ?>" alt="Audience Keynote"></div>
                 <div class="slide-item"><img src="<?php echo esc_url($theme_uri . '/assets/images/about-slideshow/slide-2.png'); ?>" alt="AI Keynote Lecture"></div>
-                <div class="slide-item"><img src="<?php echo esc_url($theme_uri . '/assets/images/about-slideshow/slide-3.jpg'); ?>" alt="Videography Production"></div>
                 <div class="slide-item"><img src="<?php echo esc_url($theme_uri . '/assets/images/about-slideshow/slide-4.jpg'); ?>" alt="VR Meta Quest Demonstration"></div>
                 <div class="slide-item"><img src="<?php echo esc_url($theme_uri . '/assets/images/about-slideshow/slide-5.jpg'); ?>" alt="Interactive Classroom Demo"></div>
               </div>
               <div class="slideshow-dots" aria-hidden="true">
                 <span class="dot active"></span>
-                <span class="dot"></span>
                 <span class="dot"></span>
                 <span class="dot"></span>
                 <span class="dot"></span>

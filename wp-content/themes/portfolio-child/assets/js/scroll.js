@@ -48,15 +48,44 @@ document.addEventListener('DOMContentLoaded', function () {
     ScrollTrigger.config({ ignoreMobileResize: true });
 
     function xRight() {
-      return Math.min(800, window.innerWidth * 0.52);
+      const cardPin = document.querySelector('.card-pin');
+      const viewportWidth = window.innerWidth;
+      const cardWidth = cardPin ? cardPin.offsetWidth : (viewportWidth <= 1024 ? 210 : 280);
+      
+      let rightMargin = 40;
+      if (viewportWidth <= 768) {
+        rightMargin = 24;
+      } else if (viewportWidth <= 850) {
+        rightMargin = 28;
+      } else if (viewportWidth <= 1024) {
+        rightMargin = 32;
+      } else if (viewportWidth <= 1440) {
+        rightMargin = Math.max(40, viewportWidth * 0.08);
+      } else {
+        rightMargin = Math.max(60, viewportWidth * 0.12);
+      }
+
+      let initialLeft = 0;
+      if (cardPin) {
+        const heroLeft = document.querySelector('.hero-left');
+        if (heroLeft) {
+          initialLeft = heroLeft.getBoundingClientRect().left;
+        } else {
+          initialLeft = cardPin.getBoundingClientRect().left;
+        }
+      }
+      
+      const targetLeft = viewportWidth - cardWidth - rightMargin;
+      return Math.max(0, targetLeft - initialLeft);
     }
+
     function yDown1() {
-      return 70;
+      return window.innerWidth <= 1024 ? 45 : 70;
     }
 
     ScrollTrigger.matchMedia({
-      // Desktop / Tablet (> 500px)
-      "(min-width: 501px)": function () {
+      // Desktop / Tablet (> 640px)
+      "(min-width: 641px)": function () {
         const cardPin = document.querySelector('.card-pin');
         const introSection = document.querySelector('.intro-section');
         const skillsSection = document.querySelector('.section-skills');

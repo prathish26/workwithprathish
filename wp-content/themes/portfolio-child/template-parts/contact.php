@@ -15,13 +15,14 @@ if (!defined('ABSPATH')) exit;
     <form id="prathish-contact-form" method="POST" action="https://formsubmit.co/prathiish1926@gmail.com">
       <input type="hidden" name="_captcha" value="false">
       <input type="hidden" name="_template" value="table">
-      <input type="hidden" name="_subject" value="New Portfolio Inquiry - Prathish Raj">
+      <input type="hidden" name="_subject" value="New Portfolio Inquiry | Prathish Raj">
+      <input type="hidden" name="_autoresponse" value="Thank you for reaching out to Prathish Raj. Your project inquiry has been received. Prathish will review your details and get in touch with you shortly.">
       <div class="contact-row-split">
         <div class="contact-field-wrap">
           <input type="text" name="your_name" id="your_name" class="contact-input" placeholder="John Smith *" required aria-required="true" autocomplete="name">
         </div>
         <div class="contact-field-wrap">
-          <input type="text" name="your_position" id="your_position" class="contact-input" placeholder="Founder, Recruiter, Freelancer, etc. *" required aria-required="true">
+          <input type="text" name="your_position" id="your_position" class="contact-input" placeholder="Director, Recruiter, Client, etc. *" required aria-required="true">
         </div>
       </div>
 

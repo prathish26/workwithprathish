@@ -69,3 +69,4 @@ Open `http://localhost:8080` in your browser.
 - **Architect**: Prathish Raj
 - **Inquiries**: [prathiish1926@gmail.com](mailto:prathiish1926@gmail.com)
 - **Domain**: [workwithprathish.in](https://workwithprathish.in)
+

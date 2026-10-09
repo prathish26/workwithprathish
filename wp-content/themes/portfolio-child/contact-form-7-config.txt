@@ -10,7 +10,7 @@ FORM TEMPLATE CODE (Copy & Paste into CF7 Form tab):
     [text* your_name class:contact-input placeholder "John Smith *"]
   </div>
   <div class="contact-field-wrap">
-    [text* your_position class:contact-input placeholder "Founder, Recruiter, Freelancer, etc. *"]
+    [text* your_position class:contact-input placeholder "Director, Recruiter, Client, etc. *"]
   </div>
 </div>
 

@@ -10,7 +10,9 @@ desktop.ini
 # Dev & Testing Artifacts
 screenshots/
 test_scroll.html
+*.zip
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+

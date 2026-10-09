@@ -213,6 +213,7 @@ document.addEventListener('DOMContentLoaded', function () {
             "Project Scope": scope,
             _replyto: email,
             _subject: `New Portfolio Inquiry from ${name} (${position})`,
+            _autoresponse: `Thank you for reaching out to Prathish Raj. Your project inquiry has been received. Prathish will review your message and get in touch with you shortly.`,
             _template: 'table',
             _captcha: 'false'
           };
@@ -229,10 +230,10 @@ document.addEventListener('DOMContentLoaded', function () {
           const fsData = await fsResp.json();
           if (fsData && (fsData.success === 'true' || fsData.success === true)) {
             success = true;
-            displayMessage = 'Thank you! Your message has been sent successfully.';
+            displayMessage = 'Thank you! Your message and acknowledgement email have been dispatched.';
           } else if (fsData && fsData.message && fsData.message.includes('Activation')) {
             success = true;
-            displayMessage = 'Message sent! Please check prathiish1926@gmail.com to activate initial notification delivery.';
+            displayMessage = 'Inquiry recorded! Please check prathiish1926@gmail.com (Inbox or Spam) to click "Activate Form" for real-time delivery.';
           } else {
             success = true;
             displayMessage = 'Thank you! Your inquiry has been sent successfully.';

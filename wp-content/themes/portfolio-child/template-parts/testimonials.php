@@ -18,7 +18,7 @@ $reviews = array(
         'quote'    => 'I asked and Prathish delivered honestly. I didn\'t want a generic site, I wanted an intelligent platform I could scale and actually be proud of. He got that instantly and gave me what I needed without endless back-and-forth.'
     ),
     array(
-        'author'   => 'AI Founder',
+        'author'   => 'Engineering Lead',
         'category' => 'AI Systems & Vibe Coding',
         'date'     => 'February 2026',
         'quote'    => 'Prathish Raj is uniquely talented bridging rapid prototyping, vibe coding, and high-end design directions. He combines design thinking with AI acceleration that sped up our entire release cadence.'
@@ -27,7 +27,7 @@ $reviews = array(
 ?>
 
 <section class="section-testimonials faded-cards" id="testimonials">
-  <span class="section-label">/ Community Trust &ndash; Testimonials</span>
+  <span class="section-label">/ Community Trust &middot; Testimonials</span>
   <h2 class="section-title">
     What <span class="accent-word">people</span> say
   </h2>

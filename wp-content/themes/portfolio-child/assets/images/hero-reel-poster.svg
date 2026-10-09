@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600">
+  <defs>
+    <linearGradient id="backGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f0f10"/>
+      <stop offset="50%" stop-color="#18181b"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e27500" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#e27500" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="1600" fill="url(#backGrad)"/>
+  <circle cx="600" cy="800" r="500" fill="url(#glow)"/>
+  
+  <!-- Play Symbol & Motion Design Aesthetic -->
+  <circle cx="600" cy="800" r="100" fill="none" stroke="#e27500" stroke-width="4"/>
+  <polygon points="580,750 645,800 580,850" fill="#ffffff"/>
+  
+  <text x="600" y="980" fill="#ffffff" font-family="'Clash Display', sans-serif" font-size="44" font-weight="600" text-anchor="middle" letter-spacing="1">SHOWREEL 2026</text>
+  <text x="600" y="1030" fill="#8e8e8e" font-family="'General Sans', sans-serif" font-size="22" text-anchor="middle">Art Direction • Motion • Systems</text>
+</svg>

@@ -1,0 +1,243 @@
+/* ==========================================================================
+   Prathish Raj Portfolio - responsive.css
+   Responsive behavior across viewports:
+   1920px, 1600px, 1440px, 1366px, 1280px, 1024px, 768px, 640px, 430px, 390px, 375px
+   ========================================================================== */
+
+/* 1600px - 1920px (Ultra-wide / Large Desktop) */
+@media (min-width: 1600px) {
+  .hero-huge-title {
+    font-size: clamp(3rem, 4.4vw, 5.2rem);
+  }
+  .section-skills,
+  .section-about,
+  .section-awards,
+  .section-portfolio,
+  .section-experience,
+  .section-testimonials,
+  .section-faq {
+    max-width: 1440px;
+  }
+}
+
+/* 1280px - 1440px (Standard Desktop) */
+@media (max-width: 1440px) {
+  .hero-inner-row {
+    padding-left: 10.5%;
+    padding-right: 9%;
+  }
+  .hero-huge-title {
+    font-size: clamp(2.7rem, 4.8vw, 4.6rem);
+  }
+  .card-pin {
+    width: 265px;
+    height: 370px;
+    margin: 0;
+  }
+  .skill-card {
+    max-width: 520px;
+    margin: 0 0 50px 0;
+    padding: 36px 42px;
+  }
+}
+
+/* 1024px - 1280px (Small Desktop / Landscape Tablet) */
+@media (max-width: 1280px) {
+  .hero-inner-row {
+    padding-left: 10.5%;
+    padding-right: 9%;
+  }
+  .hero-huge-title {
+    font-size: clamp(2.4rem, 4.4vw, 4.0rem);
+  }
+  .card-pin {
+    width: 245px;
+    height: 345px;
+    margin: 0;
+  }
+  .awards-list .award-row {
+    grid-template-columns: 50px 1.2fr 1fr 120px;
+  }
+  .footer-grid {
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    gap: 30px;
+  }
+}
+
+/* 768px - 1024px (Tablet Portrait / Landscape) */
+@media (max-width: 1024px) {
+  .hero-inner-row {
+    padding-left: 10.5%;
+    padding-right: 9%;
+    padding-top: 80px;
+  }
+  .hero-huge-title {
+    font-size: clamp(2.2rem, 4vw, 3.4rem);
+  }
+  .card-pin {
+    width: 220px;
+    height: 310px;
+    margin: 0;
+  }
+  .section-skills {
+    padding-left: 10.5% !important;
+    padding-right: 9% !important;
+  }
+  .skills-deck-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+    width: 100%;
+  }
+  .skill-card {
+    max-width: 480px !important;
+    margin: 0 0 32px 0 !important;
+    margin-left: 0 !important;
+    margin-right: auto !important;
+    align-self: flex-start !important;
+    padding: 32px 36px;
+  }
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+  }
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+  .faq-grid {
+    grid-template-columns: 1fr;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  #nik-bottom-blur {
+    display: none !important;
+  }
+}
+
+/* 640px - 768px (Small Tablet) */
+@media (max-width: 768px) {
+  .bottom-fixed-nav-wrap {
+    display: none; /* Switch to mobile header */
+  }
+  .mobile-sticky-header {
+    display: flex;
+  }
+  .intro-hero {
+    position: relative !important;
+    top: auto;
+    padding-inline: 5%;
+    margin-top: 15px;
+  }
+  .hero-inner-row {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+  .hero-left, .hero-right {
+    flex: 0 0 100%;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-left: 0;
+  }
+  .hero-huge-title {
+    font-size: clamp(2rem, 6.5vw, 3.2rem);
+    text-align: center;
+  }
+  .hero-status-tag, .hero-role-tag, .homepage-localtime {
+    text-align: center;
+  }
+  .card-pin {
+    width: 220px;
+    height: 310px;
+    margin: 15px auto 0;
+  }
+  .award-row {
+    grid-template-columns: 40px 1fr 100px;
+    gap: 10px;
+  }
+  .award-org {
+    display: none;
+  }
+  .contact-row-split {
+    grid-template-columns: 1fr;
+  }
+  .contact-form-box {
+    padding: 30px 20px;
+  }
+  .contact-radio-group {
+    flex-direction: column;
+  }
+}
+
+/* 430px, 390px, 375px (Mobile Viewports: iPhone 14/15 Pro Max, iPhone 14/15, iPhone SE) */
+@media (max-width: 430px) {
+  .intro-section {
+    padding: 40px 5% 60px;
+    min-height: auto;
+  }
+  .hero-huge-title {
+    font-size: clamp(1.8rem, 7.6vw, 2.5rem);
+    letter-spacing: -1px;
+    text-align: center;
+  }
+  .card-pin {
+    width: 220px;
+    height: 310px;
+    margin: 20px auto;
+  }
+  .skill-card {
+    padding: 24px 20px;
+    border-radius: 24px;
+    margin-bottom: 24px;
+  }
+  .skill-card-title {
+    font-size: 1.45rem;
+  }
+  .section-title {
+    font-size: 1.9rem;
+    letter-spacing: -1px;
+  }
+  .about-editorial-heading {
+    font-size: 1.8rem;
+  }
+  .award-row {
+    grid-template-columns: 35px 1fr;
+    row-gap: 6px;
+  }
+  .award-date {
+    grid-column: 2;
+    text-align: left;
+    font-size: 13px;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .footer-bottom-row {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 375px) {
+  .hero-huge-title {
+    font-size: clamp(1.6rem, 7.2vw, 2.1rem);
+  }
+  .card-pin {
+    width: 190px;
+    height: 270px;
+  }
+  .skill-card {
+    padding: 20px 16px;
+  }
+  .contact-form-box {
+    padding: 24px 16px;
+  }
+}
+

@@ -1,0 +1,55 @@
+=== CONTACT FORM 7 CONFIGURATION ===
+
+TITLE:
+Prathish Raj Contact Form (Reconstruction)
+
+FORM TEMPLATE CODE (Copy & Paste into CF7 Form tab):
+================================================================================
+<div class="contact-row-split">
+  <div class="contact-field-wrap">
+    [text* your_name class:contact-input placeholder "John Smith *"]
+  </div>
+  <div class="contact-field-wrap">
+    [text* your_position class:contact-input placeholder "Founder, Recruiter, Freelancer, etc. *"]
+  </div>
+</div>
+
+<div class="contact-field-wrap" style="margin-bottom: 20px;">
+  [email* your_e-mail_address class:contact-input placeholder "mail@example.com *"]
+</div>
+
+<div class="contact-radio-group">
+  [radio your_status default:1 "I have a project" "I am a recruiter"]
+</div>
+
+<div class="contact-field-wrap" style="margin-bottom: 24px;">
+  [textarea* project_scope class:contact-input placeholder "What’s the project scope? *"]
+</div>
+
+[submit class:contact-submit-btn "Submit →"]
+================================================================================
+
+MAIL TAB CONFIGURATION:
+================================================================================
+To: prathiish1926@gmail.com
+From: [_site_title] <wordpress@yourdomain.com>
+Subject: Portfolio Inquiry: [your_name] | [your_position]
+Additional Headers: Reply-To: [your_e-mail_address]
+
+Message Body:
+==================================================
+Sender Name: [your_name]
+Position / Role: [your_position]
+Email Address: [your_e-mail_address]
+Inquiry Type: [your_status]
+
+Project Scope / Details:
+[project_scope]
+
+Sent from Prathish Raj Portfolio Reconstruction
+==================================================
+
+MESSAGES TAB:
+Sender's message was sent successfully: "Thank you! Your inquiry has been sent successfully."
+Sender's message failed to send: "There was an error trying to send your message. Please try again later."
+Validation errors occurred: "One or more fields have an error. Please check and try again."

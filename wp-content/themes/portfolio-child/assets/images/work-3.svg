@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1909" height="1079" viewBox="0 0 1909 1079">
+  <defs>
+    <linearGradient id="w3g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8f9fa"/>
+      <stop offset="100%" stop-color="#e9ecef"/>
+    </linearGradient>
+  </defs>
+  <rect width="1909" height="1079" fill="url(#w3g)"/>
+  <g transform="translate(254, 139)">
+    <rect width="1400" height="800" rx="24" fill="#ffffff" filter="drop-shadow(0 25px 50px rgba(0,0,0,0.06))"/>
+    <circle cx="200" cy="220" r="100" fill="#e27500" fill-opacity="0.15"/>
+    <rect x="360" y="160" width="500" height="48" rx="8" fill="#141617"/>
+    <rect x="360" y="230" width="340" height="24" rx="4" fill="#8e8e8e"/>
+    <rect x="100" y="380" width="380" height="340" rx="16" fill="#f4f5f7"/>
+    <rect x="510" y="380" width="380" height="340" rx="16" fill="#f4f5f7"/>
+    <rect x="920" y="380" width="380" height="340" rx="16" fill="#f4f5f7"/>
+  </g>
+  <text x="954" y="1010" fill="#71717a" font-family="'General Sans', sans-serif" font-size="28" font-weight="600" text-anchor="middle">TryHackMe Brand Experience &amp; Interactive Campaign</text>
+</svg>

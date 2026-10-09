@@ -1,0 +1,49 @@
+/*
+Theme Name: Prathish Raj Portfolio (Avada Child)
+Theme URI: https://prathishraj.com/
+Description: Ultra high-fidelity child theme reconstructing Prathish Raj's bespoke portfolio built on Avada, Avada Builder, and custom engineering.
+Author: Prathish Raj
+Author URI: https://prathishraj.com/
+Template: Avada
+Version: 1.0.0
+Text Domain: portfolio-child
+License: GNU General Public License v2 or later
+*/
+
+/* ==========================================================================
+   CSS Custom Properties & Design Tokens
+   Exact reverse-engineered values from https://nikolaradeski.com/
+   ========================================================================== */
+
+:root {
+  /* Brand Typography */
+  --font-display: 'Clash Display', "Clash Display - Semibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-display-medium: 'Clash Display', "Clash Display - Medium", -apple-system, sans-serif;
+  --font-display-bold: 'Clash Display', "ClashDisplay-Bold", -apple-system, sans-serif;
+  --font-sans: 'General Sans', "General Sans - Regular", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-sans-medium: 'General Sans', "General Sans - Medium", -apple-system, sans-serif;
+  --font-sans-semibold: 'General Sans', "General Sans - Semibold", -apple-system, sans-serif;
+  --font-accent: "Gloria Hallelujah", cursive, sans-serif;
+
+  /* Avada Verified Palette */
+  --awb-color1: #eaeaea;        /* Light neutral background / subtle light grey */
+  --awb-color2: #333333;        /* Dark charcoal typography / secondary dark */
+  --awb-color3: #dbdbdb;        /* Subtle border grey / dividers */
+  --awb-color4: #00512f;        /* Forest green accent */
+  --awb-color5: #2d60ce;        /* Royal blue accent */
+  --awb-color6: #434549;        /* Mid dark grey */
+  --awb-color7: #6d6d6d;        /* Muted secondary body text */
+  --awb-color8: #141617;        /* Deep rich black typography */
+  --awb-custom_color_1: #8e8e8e; /* Silver grey */
+  --awb-custom_color_2: #e27500; /* Warm signature amber/orange accent */
+  --awb-custom_color_hover: #ef8700;
+
+  /* Aliases */
+  --bg-page: var(--awb-color1);
+  --text-main: var(--awb-color8);
+  --text-body: var(--awb-color2);
+  --text-muted: var(--awb-color7);
+  --border-subtle: var(--awb-color3);
+  --accent-orange: var(--awb-custom_color_2);
+}
+

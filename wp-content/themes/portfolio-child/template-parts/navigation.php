@@ -6,7 +6,7 @@ if (!defined('ABSPATH')) exit;
 ?>
 <!-- Mobile Sticky Header -->
 <header class="mobile-sticky-header">
-  <a href="#" class="mobile-logo">Prathish Raj ©</a>
+  <a href="#" class="mobile-logo">Prathish Raj</a>
   <button type="button" class="mobile-menu-trigger" aria-label="Toggle menu">
     <svg width="18" height="14" viewBox="0 0 18 14" fill="none" stroke="currentColor" stroke-width="2">
       <line y1="1" x2="18" y2="1"/>
